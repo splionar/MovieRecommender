@@ -1,0 +1,12 @@
+name: MovieRecommender
+title: MovieRecommender
+username:
+account: splionar
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 340102
+bundleId: 1366348
+url: https://splionar.shinyapps.io/MovieRecommender/
+when: 1525941649.21889
+asMultiple: FALSE
+asStatic: FALSE
