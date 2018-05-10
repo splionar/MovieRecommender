@@ -11,8 +11,9 @@ shinyUI(navbarPage(theme = shinytheme("slate"),
   title = ("User-user Collaborative Filtering Movie Recommender"),
   
   tabPanel(title="Application",
-  h4("Instructions:"),
-  p("Select 3 movies that you like. Recommendations will be given based on your selections."),
+           helpText(h4("Instructions:")),
+           helpText("Select 3 movies that you like. Recommendations will be given based on your selections."),
+           p("The page may take a while to initialize. If it does not display correctly, please use the latest version of Google Chrome."),
       fluidRow(
               column(4, h3("Movie 1"),
                      wellPanel(
